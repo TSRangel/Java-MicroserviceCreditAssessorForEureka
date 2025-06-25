@@ -2,8 +2,10 @@ package io.github.tsrangel.mscreditassessor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
+@EnableFeignClients
 public class MscreditassessorApplication {
 
 	public static void main(String[] args) {
