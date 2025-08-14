@@ -1,7 +1,7 @@
 package io.github.tsrangel.mscreditassessor.application.mappers;
 
 import io.github.tsrangel.mscreditassessor.application.dtos.assessor.responses.ClientDataDTO;
-import io.github.tsrangel.mscreditassessor.application.dtos.clients.msCientResponse.ClientResponseDTO;
+import io.github.tsrangel.mscreditassessor.application.dtos.clients.resourceResponse.ClientResponseDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

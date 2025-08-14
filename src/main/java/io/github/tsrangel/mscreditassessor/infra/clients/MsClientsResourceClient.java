@@ -1,6 +1,6 @@
 package io.github.tsrangel.mscreditassessor.infra.clients;
 
-import io.github.tsrangel.mscreditassessor.application.dtos.clients.msCientResponse.ClientResponseDTO;
+import io.github.tsrangel.mscreditassessor.application.dtos.clients.resourceResponse.ClientResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

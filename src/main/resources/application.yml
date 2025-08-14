@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: mscreditassessor
+  output:
+    ansi:
+      enabled: always
 
 eureka:
   client:

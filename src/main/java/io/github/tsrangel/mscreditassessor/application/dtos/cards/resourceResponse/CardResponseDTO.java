@@ -6,7 +6,6 @@ public record CardResponseDTO(
         Long id,
         String name,
         String banner,
-        BigDecimal income,
         BigDecimal availableLimit
 ) {
 }
